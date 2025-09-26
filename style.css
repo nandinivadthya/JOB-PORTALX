@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #f9fbfd;
+  color: #333;
+}
+
+header {
+  background: #ffffff;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  color: #0077cc;
+  margin: 0;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+nav a:hover {
+  color: #0077cc;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url("https://img.freepik.com/free-photo/medium-shot-smiley-colleagues-hugging_23-2149300655.jpg") no-repeat center/cover;
+  color: white;
+}
+.hero h2 {
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+.hero button {
+  padding: 14px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #0077cc;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.hero button:hover {
+  background: #005fa3;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 60px 20px;
+  background: #fff;
+}
+.feature {
+  width: 280px;
+  margin: 15px;
+  padding: 20px;
+  background: #f4faff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.feature h3 {
+  color: #0077cc;
+}
+
+form {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+form input, form button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  background: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+form button:hover {
+  background: #005fa3;
+}
+
+footer {
+  background: #004c99;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
